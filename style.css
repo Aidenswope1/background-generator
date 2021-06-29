@@ -1,0 +1,17 @@
+.tree {
+	margin: auto;
+	display: block;
+}
+.rotate {
+	position: relative;
+	animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation{
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
